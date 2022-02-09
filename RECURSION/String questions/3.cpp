@@ -11,9 +11,10 @@ string removeA3(string A){
         ans.push_back(A.at(0));
     }
     string let=removeA3(A.substr(1)); //means 1 to end
-    for(int i=0;i<let.length();i++){
-        ans.push_back(let[i]);
-    }
+    // for(int i=0;i<let.length();i++){
+    //     ans.push_back(let[i]);
+    // }
+    ans.append(let);
     return ans;
 }
 int main(){
