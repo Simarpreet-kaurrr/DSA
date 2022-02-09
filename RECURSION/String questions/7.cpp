@@ -1,7 +1,6 @@
 // SUBSEQUENCE IN STRINGS USING ITERATIONS
 #include <iostream> 
 #include <vector>
-#include <algorithm>
 #include <string>
 using namespace std;
 
