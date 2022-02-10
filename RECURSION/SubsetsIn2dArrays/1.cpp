@@ -12,7 +12,7 @@ int maze(int m, int n){
     }
 }
 int main(){
-    int m,n;
+    int m,n; //no. of rows and columns
     // int arr[3][3]; //Creates a matrix of 3X3
     cin>>m>>n;
     cout<<maze(m,n);
