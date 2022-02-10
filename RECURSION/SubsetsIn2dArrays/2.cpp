@@ -7,7 +7,7 @@ void mazepaths(string unp, int r, int c,string ma){
     if(r<1 || c<1){
         return;
     }
-    if(r ==1 && c==1){
+    if(r==1 && c==1){
         cout<<unp<<endl;
         return;
     }
