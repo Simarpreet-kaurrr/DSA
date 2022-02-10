@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 
-void mazepaths(string unp,int m, int n,string ma){
+void mazepaths(string unp, int m, int n,string ma){
     if(m<1 || n<1){
         return;
     }
