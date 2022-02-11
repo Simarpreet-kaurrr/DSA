@@ -1,9 +1,10 @@
 // MAZE PROBLEM / SUBSETS IN 2D ARRAYS 
+//NO. OF PATHS POSSIBLE
 #include <iostream>
 using namespace std;
 
 int maze(int m, int n){
-    if(m==1 || n==1){
+    if(m==1 || n==1){ //reached target/end of maze
         return 1;
     }else{
         int x=maze(m-1,n);

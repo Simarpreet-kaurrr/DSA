@@ -1,18 +1,20 @@
-// MAZE PROBLEM PRINTING PATHS, moves allowed: down and right
-#include <iostream >
+//MAZE PATH IF DIAGONAL MOVE IS ALSO ALLOWED
+#include <iostream>
 #include <string>
 using namespace std;
 
 void mazepaths(string unp, int r, int c){
     if(r==1 && c==1){ //reached target/end of maze
-        cout<<unp<<endl;
+        cout<<unp<<" ";
         return;
     }
     else if(r>0 && c>0){
-        char d='D'; //D
+        char d='D'; //Down move
         mazepaths(unp+d,r -1,c);
-        char rr='R'; //R
+        char rr='R'; //Right move
         mazepaths(unp+rr,r,c-1);
+        char dg='d'; //diagonal move
+        mazepaths(unp+dg,r-1,c-1);
     }
 }
 int main(){
