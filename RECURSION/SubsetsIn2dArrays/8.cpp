@@ -1,5 +1,5 @@
-// MAZE PROBLEM PRINTING PATHS, moves allowed: LEFT,UP,DOWN,RIGHT
-//Leads in Stack Overflow so to solve that we use Backtracking (next programs)
+//BACKTRACKING
+// (Solving stack overflow problem introduced in previous programs)
 
 #include <iostream >
 #include <string>
